@@ -1,8 +1,7 @@
 package route
 
 import (
-	"github.com/me/example/app/controllers"
-
+	"github.com/MockArch/hehehe/app/controllers"
 	"github.com/gorilla/mux"
 )
 
