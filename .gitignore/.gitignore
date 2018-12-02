@@ -1,5 +1,5 @@
 # Binaries for programs and plugins
-vendor/
+vendor/*
 *.exe
 *.exe~
 *.dll
