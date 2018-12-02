@@ -10,7 +10,6 @@ import (
 )
 
 func main() {
-	port := os.Getenv("PORT")
 	log.Info("Applicatio has been started on : 8080")
 	err := godotenv.Load()
 	if err != nil {
@@ -23,5 +22,5 @@ func main() {
 	//creating instance of mux
 	routes := route.GetRoutes()
 	http.Handle("/", routes)
-	log.Fatal(http.ListenAndServe(":"+port, nil))
+	log.Fatal(http.ListenAndServe(":8080", nil))
 }
