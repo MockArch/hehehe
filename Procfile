@@ -1,1 +1,1 @@
-web: hehehe
+web: go-getting-started

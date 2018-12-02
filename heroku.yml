@@ -5,4 +5,4 @@ build:
     - go
 
 run:
-  web: hehehe
+  web: go-getting-started
