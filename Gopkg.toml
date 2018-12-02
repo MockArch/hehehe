@@ -32,3 +32,7 @@
 [[constraint]]
   name = "github.com/gorilla/mux.git"
   version = "1.6.2"
+
+[metadata.heroku]
+  root-package = "github.com/heroku/go-getting-started"
+  go-version = "1.11.1"
